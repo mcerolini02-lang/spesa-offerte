@@ -1,0 +1,11 @@
+playwright>=1.50,<2
+PyYAML>=6,<7
+requests>=2.31,<3
+beautifulsoup4>=4.12,<5
+rapidfuzz>=3.10,<4
+PyMuPDF>=1.25,<2
+Pillow>=10,<12
+pytesseract>=0.3,<1
+python-dateutil>=2.9,<3
+
+pytest>=8,<9
