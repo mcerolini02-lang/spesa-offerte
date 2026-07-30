@@ -1,0 +1,92 @@
+products:
+  - id: acqua_santanna_naturale_15_2l
+    name: "Acqua Sant'Anna naturale 1,5 L o 2 L"
+    all_groups:
+      - ["sant'anna", "sant anna", "s. anna"]
+      - ["naturale", "acqua minerale naturale"]
+    exclude: ["the", "tè", "tea", "brio", "frizzante", "gasata"]
+    accepted_item_sizes: [1.5, 2.0]
+    accepted_size_unit: l
+    compare_unit: l
+
+  - id: acqua_brio_blu_rossa_15l
+    name: "Acqua Brio Blu Rossa frizzante 1,5 L"
+    all_groups:
+      - ["brio blu", "brioblu"]
+      - ["rossa", "frizzante", "gasata"]
+    accepted_item_sizes: [1.5]
+    accepted_size_unit: l
+    compare_unit: l
+
+  - id: caffe_pellini_grani
+    name: "Caffè Pellini in grani"
+    all_groups:
+      - ["pellini"]
+      - ["grani", "in grani", "chicchi"]
+    exclude: ["capsule", "cialde", "macinato"]
+    compare_unit: kg
+
+  - id: coca_cola_15l
+    name: "Coca-Cola 1,5 L"
+    all_groups:
+      - ["coca-cola", "coca cola"]
+    accepted_item_sizes: [1.5]
+    accepted_size_unit: l
+    compare_unit: l
+
+  - id: yogurt_greco
+    name: "Yogurt greco"
+    all_groups:
+      - ["yogurt greco", "greek yogurt", "tipo greco"]
+    exclude: ["bevanda", "gelato"]
+    compare_unit: kg
+
+  - id: skyr
+    name: "Skyr"
+    all_groups:
+      - ["skyr"]
+    exclude: ["bevanda", "gelato"]
+    compare_unit: kg
+
+  - id: the_santanna_15l
+    name: "Tè Sant'Anna 1,5 L"
+    all_groups:
+      - ["sant'anna", "sant anna", "s. anna"]
+      - ["the", "tè", "tea"]
+    exclude: ["acqua minerale"]
+    accepted_item_sizes: [1.5]
+    accepted_size_unit: l
+    compare_unit: l
+
+  - id: brioche_misura_albicocca
+    name: "Brioche Misura all'albicocca"
+    all_groups:
+      - ["misura"]
+      - ["brioche", "cornetti", "croissant"]
+      - ["albicocca"]
+    exclude: ["miele"]
+    compare_unit: kg
+
+  - id: brioche_misura_miele
+    name: "Brioche Misura al miele"
+    all_groups:
+      - ["misura"]
+      - ["brioche", "cornetti", "croissant"]
+      - ["miele"]
+    exclude: ["albicocca"]
+    compare_unit: kg
+
+  - id: biscotti_integrali_galbusera
+    name: "Biscotti integrali Galbusera"
+    all_groups:
+      - ["galbusera"]
+      - ["integrali", "integrale"]
+      - ["biscotti", "frollini"]
+    compare_unit: kg
+
+  - id: latte_parmalat_barista
+    name: "Latte Parmalat Barista"
+    all_groups:
+      - ["parmalat"]
+      - ["barista"]
+    compare_unit: l

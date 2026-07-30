@@ -1,0 +1,88 @@
+sources:
+  - id: esselunga
+    name: Esselunga
+    enabled: true
+    store: "Esselunga Pioltello"
+    start_urls:
+      - "https://www.esselunga.it/it-it/promozioni/volantini.html"
+    allowed_domains:
+      - "www.esselunga.it"
+      - "esselunga.it"
+      - "esselunga-cdn.esselunga.it"
+      - "spesaonline.esselunga.it"
+    max_pages: 14
+    max_images: 24
+    interaction:
+      type: selects
+      selections:
+        - "MI"
+        - "Pioltello"
+        - "Esselunga di Pioltello"
+      click_texts: ["Cerca"]
+
+  - id: iperal
+    name: Iperal
+    enabled: true
+    store: "Iperal Vimodrone"
+    start_urls:
+      - "https://www.iperal.it/promozioni/"
+    allowed_domains:
+      - "www.iperal.it"
+      - "iperal.it"
+      - "iperal-cdn.azureedge.net"
+      - "cataloghi.iperal.it"
+    max_pages: 12
+    max_images: 24
+    interaction:
+      type: selects
+      selections: ["Iperal Vimodrone"]
+
+  - id: gigante
+    name: Il Gigante
+    enabled: true
+    store: "Il Gigante Cernusco sul Naviglio"
+    start_urls:
+      - "https://ilgigante.net/volantini/"
+    allowed_domains:
+      - "ilgigante.net"
+      - "www.ilgigante.net"
+    max_pages: 12
+    max_images: 28
+    interaction:
+      type: search
+      query: "Cernusco sul Naviglio"
+      click_texts: ["CERCA", "Cerca"]
+      suggestion_texts: ["Cernusco sul Naviglio"]
+
+  - id: md
+    name: MD
+    enabled: true
+    store: "MD Cernusco sul Naviglio - Via Torino 45"
+    start_urls:
+      - "https://www.mdspa.it/volantino/"
+    allowed_domains:
+      - "www.mdspa.it"
+      - "mdspa.it"
+    max_pages: 10
+    max_images: 28
+    interaction:
+      type: search
+      query: "Cernusco sul Naviglio"
+      click_texts: ["Ricerca un punto vendita", "Cerca"]
+      suggestion_texts: ["CERNUSCO SUL NAVIGLIO", "Cernusco sul Naviglio"]
+
+  - id: lidl
+    name: Lidl
+    enabled: true
+    store: "Lidl Pioltello - Via Giorgio Amendola 13"
+    start_urls:
+      - "https://www.lidl.it/s/it-IT/ricerca-negozio/pioltello-mi/via-giorgio-amendola-13/"
+      - "https://www.lidl.it/"
+    allowed_domains:
+      - "www.lidl.it"
+      - "lidl.it"
+    max_pages: 18
+    max_images: 24
+    interaction:
+      type: click
+      click_texts: ["Seleziona come negozio preferito", "Accetta tutti", "Accetta"]

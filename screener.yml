@@ -1,0 +1,84 @@
+name: Screener offerte spesa
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "15 7 * * 1,4"
+      timezone: "Europe/Rome"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: grocery-screener
+  cancel-in-progress: false
+
+jobs:
+  run-screener:
+    runs-on: ubuntu-latest
+    timeout-minutes: 55
+
+    steps:
+      - name: Scarica repository
+        uses: actions/checkout@v4
+
+      - name: Configura Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Installa OCR italiano
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y tesseract-ocr tesseract-ocr-ita
+
+      - name: Installa dipendenze Python
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          python -m playwright install --with-deps chromium
+
+      - name: Esegui test
+        run: pytest
+
+      - name: Avvia screener
+        env:
+          MAX_ASSETS_PER_SOURCE: "12"
+        run: |
+          python -m screener.main \
+            --config config \
+            --output reports \
+            --history data/history.csv \
+            --raw-dir tmp/raw
+
+      - name: Pubblica sintesi nella pagina Actions
+        if: always()
+        run: |
+          if [ -f reports/offerte_latest.md ]; then
+            cat reports/offerte_latest.md >> "$GITHUB_STEP_SUMMARY"
+          fi
+
+      - name: Carica report e diagnostica
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: screener-offerte-${{ github.run_number }}
+          path: |
+            reports/
+            tmp/raw/
+          if-no-files-found: warn
+          retention-days: 30
+
+      - name: Salva report e storico nel repository
+        if: success()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add reports data/history.csv
+          if git diff --cached --quiet; then
+            echo "Nessuna modifica da salvare"
+          else
+            git commit -m "Aggiorna offerte spesa $(date +'%Y-%m-%d')"
+            git push
+          fi
