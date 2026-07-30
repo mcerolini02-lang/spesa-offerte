@@ -1,0 +1,89 @@
+{
+  "run_date": "2026-07-30",
+  "sources": {
+    "esselunga": {
+      "store": "Esselunga Pioltello",
+      "documents": 17,
+      "assets": 27,
+      "offers": 0,
+      "visited_urls": [
+        "https://www.esselunga.it/it-it/promozioni/volantini.html",
+        "https://www.esselunga.it/it-it/promozioni/volantini.html"
+      ],
+      "errors": [
+        "Asset https://www.esselunga.it/media/asset/wave/breadcrumb_wave_bg_1400.svg: UnidentifiedImageError: cannot identify image file <_io.BytesIO object at 0x7f4472cb2160>"
+      ]
+    },
+    "iperal": {
+      "store": "Iperal Vimodrone",
+      "documents": 24,
+      "assets": 44,
+      "offers": 0,
+      "visited_urls": [
+        "https://www.iperal.it/promozioni/",
+        "https://www.iperal.it/promozioni/#content",
+        "https://cataloghi.iperal.it/books/ifpi/#p=1",
+        "https://cataloghi.iperal.it/books/imxt/#p=1"
+      ],
+      "errors": []
+    },
+    "gigante": {
+      "store": "Il Gigante Cernusco sul Naviglio",
+      "documents": 24,
+      "assets": 70,
+      "offers": 0,
+      "visited_urls": [
+        "https://ilgigante.net/volantini/?lat=45.5248987&lng=9.330711299999999",
+        "https://ilgigante.net/volantini/?lat=45.5248987&lng=9.330711299999999#jupiterx-main",
+        "https://ilgigante.net/cerca-punto-vendita/risultato-ricerca-punti-vendita/scheda-punto-vendita/?punto=70",
+        "https://ilgigante.net/cerca-punto-vendita/risultato-ricerca-punti-vendita/scheda-punto-vendita/?punto=2",
+        "https://ilgigante.net/cerca-punto-vendita/risultato-ricerca-punti-vendita/scheda-punto-vendita/?punto=56",
+        "https://ilgigante.net/cerca-punto-vendita/risultato-ricerca-punti-vendita/scheda-punto-vendita/?punto=29",
+        "https://ilgigante.net/cerca-punto-vendita/risultato-ricerca-punti-vendita/scheda-punto-vendita/?punto=1",
+        "https://ilgigante.net/cerca-punto-vendita/risultato-ricerca-punti-vendita/scheda-punto-vendita/?punto=3",
+        "https://ilgigante.net/cerca-punto-vendita/risultato-ricerca-punti-vendita/scheda-punto-vendita/?punto=48",
+        "https://ilgigante.net/cerca-punto-vendita/risultato-ricerca-punti-vendita/scheda-punto-vendita/?punto=32",
+        "https://ilgigante.net/cerca-punto-vendita/risultato-ricerca-punti-vendita/scheda-punto-vendita/?punto=34",
+        "https://ilgigante.net/cerca-punto-vendita/risultato-ricerca-punti-vendita/scheda-punto-vendita/?punto=19"
+      ],
+      "errors": []
+    },
+    "md": {
+      "store": "MD Cernusco sul Naviglio - Via Torino 45",
+      "documents": 13,
+      "assets": 24,
+      "offers": 0,
+      "visited_urls": [
+        "https://www.mdspa.it/volantino/"
+      ],
+      "errors": []
+    },
+    "lidl": {
+      "store": "Lidl Pioltello - Via Giorgio Amendola 13",
+      "documents": 52,
+      "assets": 110,
+      "offers": 1,
+      "visited_urls": [
+        "https://www.lidl.it/s/it-IT/ricerca-negozio/pioltello-mi/via-giorgio-amendola-13/",
+        "https://www.lidl.it/",
+        "https://www.lidl.it/c/volantino-lidl/s10018048",
+        "https://www.lidl.it/c/cibo-e-bevande/s10068374",
+        "https://www.lidl.it/l/it/volantini/offerte-valide-dal-30-07-al-5-08-volantino-settimanale-KA/view/flyer/page/1",
+        "https://www.lidl.it/l/it/volantini/dal-nostro-assortimento-frutta-fresca-pronta-da-gustare/view/flyer/page/1",
+        "https://www.lidl.it/l/it/volantini/novita-in-negozio-scopri-i-tuoi-mondi-lidl-54f2d0/view/flyer/page/1",
+        "https://www.lidl.it/l/it/volantini/offerte-valide-dal-30-07-al-5-08-fresca-e-conveniente/view/flyer/page/1",
+        "https://www.lidl.it/l/it/volantini/offerte-valide-dal-30-07-al-5-08-per-i-tuoi-amici-a-4-zampe/view/flyer/page/1",
+        "https://www.lidl.it/l/it/volantini/offerte-valide-dal-27-07-al-2-08-tutti-i-gusti-dellestate/view/flyer/page/1",
+        "https://www.lidl.it/l/it/volantini/vacanze-da-sogno-per-la-tua-estate-lidl-viaggi/view/flyer/page/1",
+        "https://www.lidl.it/l/it/volantini/i-viaggi-del-mese-lidl-viaggi-luglio-agosto-2026/view/flyer/page/1",
+        "https://accounts.lidl.com/Account/Login?ReturnUrl=%2Fconnect%2Fauthorize%2Fcallback%3Fcountry_code%3DIT%26response_type%3Dcode%26client_id%3Ditalyretailclient%26scope%3Dopenid%2520profile%2520Lidl.Authentication%2520offline_access%26state%3DZUdeiCy3nGowp5J4xoMDZSu0QNtqfPgRS_b1XBJQcAs%253D%26redirect_uri%3Dhttps%253A%252F%252Fwww.lidl.it%252Fuser-api%252Fsignin-oidc%26nonce%3Dya-hLIEMkugKQrDqbnUKbMKu5Fy8wY3CssAvSjoKT_4%26code_challenge%3DoD8yCENnC2wrN2Zz2EJqWhgXSp-iJnYz2zYwm2MUQA8%26code_challenge_method%3DS256%26step%3Dlogin%26language%3Dit-IT%26transaction_id%3D8fc14c7b-40af-4fbc-888f-ae71c5bfca7e#login",
+        "https://www.lidl.it/c/super-offerte-kw-31-26/a10099649",
+        "https://www.lidl.it/c/lidl-mega-offerte-kw-31-26/a10099650",
+        "https://www.lidl.it/c/grande-colazione-piccoli-prezzi-kw-31-26/a10099660",
+        "https://www.lidl.it/l/it/volantini/offerte-valide-dal-30-07-al-5-08-volantino-settimanale-NAZ/view/flyer/page/1",
+        "https://lidl.everli.com/"
+      ],
+      "errors": []
+    }
+  }
+}
