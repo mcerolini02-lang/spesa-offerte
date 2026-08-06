@@ -1,5 +1,5 @@
 {
-  "run_date": "2026-08-03",
+  "run_date": "2026-08-06",
   "sources": {
     "esselunga": {
       "store": "Esselunga Pioltello",
@@ -11,8 +11,8 @@
         "https://www.esselunga.it/it-it/promozioni/volantini.html"
       ],
       "errors": [
-        "Asset https://www.esselunga.it/media/asset/wave/breadcrumb_wave_bg_1400.svg: UnidentifiedImageError: cannot identify image file <_io.BytesIO object at 0x7f8b6a69f5b0>",
-        "Asset https://www.esselunga.it/media/icons/LOGO%20ESSE.svg: UnidentifiedImageError: cannot identify image file <_io.BytesIO object at 0x7f8b6a712d90>"
+        "Asset https://www.esselunga.it/media/asset/wave/breadcrumb_wave_bg_1400.svg: UnidentifiedImageError: cannot identify image file <_io.BytesIO object at 0x7efead54e8e0>",
+        "Asset https://www.esselunga.it/media/icons/LOGO%20ESSE.svg: UnidentifiedImageError: cannot identify image file <_io.BytesIO object at 0x7efead5c3bf0>"
       ]
     },
     "iperal": {
@@ -31,7 +31,7 @@
     "gigante": {
       "store": "Il Gigante Cernusco sul Naviglio",
       "documents": 24,
-      "assets": 70,
+      "assets": 69,
       "offers": 0,
       "visited_urls": [
         "https://ilgigante.net/volantini/?lat=45.5248987&lng=9.330711299999999",
@@ -61,9 +61,9 @@
     },
     "lidl": {
       "store": "Lidl Pioltello - Via Giorgio Amendola 13",
-      "documents": 60,
-      "assets": 151,
-      "offers": 1,
+      "documents": 66,
+      "assets": 127,
+      "offers": 0,
       "visited_urls": [
         "https://www.lidl.it/s/it-IT/ricerca-negozio/pioltello-mi/via-giorgio-amendola-13/",
         "https://www.lidl.it/",
@@ -71,18 +71,18 @@
         "https://www.lidl.it/c/cibo-e-bevande/s10068374",
         "https://www.lidl.it/h/formaggi-latticini-e-uova/h10095761",
         "https://www.lidl.it/h/drink/h10071022",
-        "https://www.lidl.it/l/it/volantini/offerte-valide-dal-30-07-al-5-08-volantino-settimanale-KA/view/flyer/page/1",
         "https://www.lidl.it/l/it/volantini/offerte-valide-dal-6-08-al-12-08-volantino-settimanale-KA/view/flyer/page/1",
-        "https://www.lidl.it/l/it/volantini/novita-in-negozio-scopri-i-tuoi-mondi-lidl-54f2d0/view/flyer/page/1",
-        "https://www.lidl.it/l/it/volantini/offerte-valide-dal-30-07-al-5-08-fresca-e-conveniente/view/flyer/page/1",
-        "https://www.lidl.it/l/it/volantini/offerte-valide-dal-30-07-al-5-08-per-i-tuoi-amici-a-4-zampe/view/flyer/page/1",
         "https://www.lidl.it/l/it/volantini/offerte-valide-dal-6-08-al-12-08-fresca-e-conveniente/view/flyer/page/1",
         "https://www.lidl.it/l/it/volantini/vacanze-da-sogno-per-la-tua-estate-lidl-viaggi/view/flyer/page/1",
         "https://www.lidl.it/l/it/volantini/i-viaggi-del-mese-lidl-viaggi-luglio-agosto-2026/view/flyer/page/1",
-        "https://accounts.lidl.com/Account/Login?ReturnUrl=%2Fconnect%2Fauthorize%2Fcallback%3Fcountry_code%3DIT%26response_type%3Dcode%26client_id%3Ditalyretailclient%26scope%3Dopenid%2520profile%2520Lidl.Authentication%2520offline_access%26state%3DqvDjX2Z7Cn5oLN2dr9L4Vx2Kc3hCW8NMwn-TtzpBdTk%253D%26redirect_uri%3Dhttps%253A%252F%252Fwww.lidl.it%252Fuser-api%252Fsignin-oidc%26nonce%3DSAXRiGGVreRnZWn5F-Kd-nSje_8hnhxeGAXx1E2jyMM%26code_challenge%3D-VurykuT3rx0RHCZxROqRDqwWVdXdwLPrm1cRhCIJyI%26code_challenge_method%3DS256%26step%3Dlogin%26language%3Dit-IT%26transaction_id%3D626aa59a-41c1-4568-a4f7-fc8b5a613568#login",
-        "https://www.lidl.it/c/super-offerte-kw-31-26/a10099649",
-        "https://www.lidl.it/c/grande-colazione-piccoli-prezzi-kw-31-26/a10099660",
-        "https://www.lidl.it/c/super-offerte-kw-32-26/a10099968"
+        "https://accounts.lidl.com/Account/Login?ReturnUrl=%2Fconnect%2Fauthorize%2Fcallback%3Fcountry_code%3DIT%26response_type%3Dcode%26client_id%3Ditalyretailclient%26scope%3Dopenid%2520profile%2520Lidl.Authentication%2520offline_access%26state%3DvOgV6UjGUj5SMMJix5hwbuJDk8bVz2-Mc16LnHKv9yI%253D%26redirect_uri%3Dhttps%253A%252F%252Fwww.lidl.it%252Fuser-api%252Fsignin-oidc%26nonce%3DhS7JJlMJMiNUMsgwI-GGQAzYy1bycTk41VdhiDQwe0Y%26code_challenge%3DpjlWkCfNZMUVuLOzyOgjHWsoKgGnqWgnMnrMwRWHz3w%26code_challenge_method%3DS256%26step%3Dlogin%26language%3Dit-IT%26transaction_id%3D99ccbdf1-ca22-4f84-9e41-f74b1047279a#login",
+        "https://www.lidl.it/c/lidl-mega-offerte-kw-32-26/a10099969",
+        "https://www.lidl.it/c/super-offerte-kw-32-26/a10099968",
+        "https://www.lidl.it/l/it/volantini/offerte-valide-dal-6-08-al-12-08-volantino-settimanale-NAZ/view/flyer/page/1",
+        "https://lidl.everli.com/",
+        "https://www.lidl.it/c/newsletter/s10017039",
+        "https://www.lidl.it/p/latteria-scamorzine-affumicate/p11140021#searchTrackingMasterId=Product.11140021&searchTrackingTitle=Scamorzine+affumicate&searchTrackingPageSize=48&searchTrackingPage=1&searchTrackingEvent=click&searchTrackingId=Product.11140021&searchTrackingQuery=null&searchTrackingOrigPos=1&searchTrackingPos=1&searchTrackingOrigPageSize=48&searchTrackingChannel=IT&list=/h/formaggi-latticini-e-uova/h10095761",
+        "https://www.lidl.it/p/italiamo-tomini-con-speck/p11140245#searchTrackingMasterId=Product.11140245&searchTrackingTitle=Tomini+con+speck&searchTrackingPageSize=48&searchTrackingPage=1&searchTrackingEvent=click&searchTrackingId=Product.11140245&searchTrackingQuery=null&searchTrackingOrigPos=1&searchTrackingPos=2&searchTrackingOrigPageSize=48&searchTrackingChannel=IT&list=/h/formaggi-latticini-e-uova/h10095761"
       ],
       "errors": []
     }
