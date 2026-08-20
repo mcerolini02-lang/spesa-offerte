@@ -1,6 +1,6 @@
 # Screener offerte alimentari
 
-Esecuzione: **2026-08-17**
+Esecuzione: **2026-08-20**
 
 ## Migliori risultati rilevati
 
@@ -12,7 +12,7 @@ Nessuna offerta con dati sufficientemente affidabili è stata rilevata.
 - **iperal**: 24 documenti, 0 risultati, 0 errori.
 - **gigante**: 24 documenti, 0 risultati, 0 errori.
 - **md**: 13 documenti, 0 risultati, 0 errori.
-- **lidl**: 59 documenti, 2 risultati, 0 errori.
+- **lidl**: 65 documenti, 1 risultati, 0 errori.
 
 ## Risultati da verificare
 
