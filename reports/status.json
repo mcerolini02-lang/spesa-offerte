@@ -1,18 +1,17 @@
 {
-  "run_date": "2026-08-24",
+  "run_date": "2026-08-28",
   "sources": {
     "esselunga": {
       "store": "Esselunga Pioltello",
-      "documents": 16,
-      "assets": 26,
+      "documents": 17,
+      "assets": 28,
       "offers": 0,
       "visited_urls": [
         "https://www.esselunga.it/it-it/promozioni/volantini.html",
         "https://www.esselunga.it/it-it/promozioni/volantini.html"
       ],
       "errors": [
-        "Asset https://www.esselunga.it/media/asset/wave/breadcrumb_wave_bg_1400.svg: UnidentifiedImageError: cannot identify image file <_io.BytesIO object at 0x7f244cd5d9e0>",
-        "Asset https://www.esselunga.it/media/icons/LOGO%20ESSE.svg: UnidentifiedImageError: cannot identify image file <_io.BytesIO object at 0x7f244cd7aac0>"
+        "Asset https://www.esselunga.it/media/asset/wave/breadcrumb_wave_bg_1400.svg: UnidentifiedImageError: cannot identify image file <_io.BytesIO object at 0x7f445f95d9e0>"
       ]
     },
     "iperal": {
@@ -62,8 +61,8 @@
     "lidl": {
       "store": "Lidl Pioltello - Via Giorgio Amendola 13",
       "documents": 63,
-      "assets": 141,
-      "offers": 1,
+      "assets": 119,
+      "offers": 0,
       "visited_urls": [
         "https://www.lidl.it/s/it-IT/ricerca-negozio/pioltello-mi/via-giorgio-amendola-13/",
         "https://www.lidl.it/",
@@ -71,18 +70,18 @@
         "https://www.lidl.it/c/cibo-e-bevande/s10068374",
         "https://www.lidl.it/h/formaggi-latticini-e-uova/h10095761",
         "https://www.lidl.it/h/drink/h10071022",
-        "https://www.lidl.it/l/it/volantini/offerte-valide-dal-20-08-al-26-08-volantino-settimanale-KA/view/flyer/page/1",
         "https://www.lidl.it/l/it/volantini/offerte-valide-dal-27-08-al-2-09-volantino-settimanale-KA/view/flyer/page/1",
-        "https://www.lidl.it/l/it/volantini/offerte-valide-dal-20-08-al-26-08-fresca-e-conveniente/view/flyer/page/1",
         "https://www.lidl.it/l/it/volantini/offerte-valide-dal-27-08-al-2-09-fresca-e-conveniente/view/flyer/page/1",
         "https://www.lidl.it/l/it/volantini/godersi-l-estate-vale-davvero/view/flyer/page/1",
         "https://www.lidl.it/l/it/volantini/vacanze-da-sogno-per-la-tua-estate-lidl-viaggi/view/flyer/page/1",
         "https://www.lidl.it/l/it/volantini/i-viaggi-del-mese-lidl-viaggi-luglio-agosto-2026/view/flyer/page/1",
-        "https://accounts.lidl.com/Account/Login?ReturnUrl=%2Fconnect%2Fauthorize%2Fcallback%3Fcountry_code%3DIT%26response_type%3Dcode%26client_id%3Ditalyretailclient%26scope%3Dopenid%2520profile%2520Lidl.Authentication%2520offline_access%26state%3DYy-BdOQ9U1xDhiHGiY0Tr8dwEvDnSCLO0KoJIkdjzOA%253D%26redirect_uri%3Dhttps%253A%252F%252Fwww.lidl.it%252Fuser-api%252Fsignin-oidc%26nonce%3DZu3tJecVnvdndVKWa5XOei0yvB8JvPkbfr4lX2QLD9g%26code_challenge%3Dmx6ow_xqv-opnqZe58ttG5z0ZpV-XrxakZVMf4Ti1RY%26code_challenge_method%3DS256%26step%3Dlogin%26language%3Dit-IT%26transaction_id%3Dc670ce50-8d38-4bc2-889b-be943331c24d",
-        "https://www.lidl.it/c/super-offerte-kw-34-26/a10101069",
+        "https://accounts.lidl.com/Account/Login?ReturnUrl=%2Fconnect%2Fauthorize%2Fcallback%3Fcountry_code%3DIT%26response_type%3Dcode%26client_id%3Ditalyretailclient%26scope%3Dopenid%2520profile%2520Lidl.Authentication%2520offline_access%26state%3D5JjECVHoS8uoE10UbYcnTq5gT5JfFkaSKQZjaiNXT4c%253D%26redirect_uri%3Dhttps%253A%252F%252Fwww.lidl.it%252Fuser-api%252Fsignin-oidc%26nonce%3Dwfbhh0-sHgwRItxK0TGjuDiuarttDl0owmRoYQsXWP8%26code_challenge%3D8MNFqNBbEOgUaF3SRDonI8K-oofnqh6UP5p6dnHJkRs%26code_challenge_method%3DS256%26step%3Dlogin%26language%3Dit-IT%26transaction_id%3D0cfb28c7-3057-4323-ace3-e0596c19c0bf#login",
         "https://www.lidl.it/c/super-offerte-kw-35-26/a10100007",
         "https://www.lidl.it/c/lidl-mega-offerte-kw-35-26/a10101371",
-        "https://www.lidl.it/l/it/volantini/offerte-valide-dal-23-07-al-29-07-volantino-settimanale-KA/view/flyer/page/7"
+        "https://www.lidl.it/l/it/volantini/offerte-valide-dal-27-08-al-2-09-volantino-settimanale-KA/view/flyer/page/6",
+        "https://www.lidl.it/l/it/volantini/offerte-valide-dal-27-08-al-2-09-volantino-settimanale-NAZ/view/flyer/page/1",
+        "https://lidl.everli.com/",
+        "https://www.lidl.it/c/newsletter/s10017039"
       ],
       "errors": []
     }
