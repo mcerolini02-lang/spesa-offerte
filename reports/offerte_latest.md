@@ -1,20 +1,18 @@
 # Screener offerte alimentari
 
-Esecuzione: **2026-08-31**
+Esecuzione: **2026-09-03**
 
 ## Migliori risultati rilevati
 
-| Prodotto | Supermercato | Prezzo | Quantità | Prezzo unitario | Giudizio | Validità |
-|---|---|---:|---:|---:|---|---|
-| Tè Sant'Anna 1,5 L | lidl | 0,59 € | 1.5 l | 0,39 €/L | **MIGLIORE DI OGGI** | — |
+Nessuna offerta con dati sufficientemente affidabili è stata rilevata.
 
 ## Stato fonti
 
-- **esselunga**: 0 documenti, 0 risultati, 1 errori.
+- **esselunga**: 17 documenti, 0 risultati, 1 errori.
 - **iperal**: 24 documenti, 0 risultati, 0 errori.
 - **gigante**: 24 documenti, 0 risultati, 0 errori.
 - **md**: 13 documenti, 0 risultati, 0 errori.
-- **lidl**: 63 documenti, 2 risultati, 0 errori.
+- **lidl**: 67 documenti, 1 risultati, 0 errori.
 
 ## Risultati da verificare
 

@@ -1,20 +1,23 @@
 {
-  "run_date": "2026-08-31",
+  "run_date": "2026-09-03",
   "sources": {
     "esselunga": {
       "store": "Esselunga Pioltello",
-      "documents": 0,
-      "assets": 0,
+      "documents": 17,
+      "assets": 28,
       "offers": 0,
-      "visited_urls": [],
+      "visited_urls": [
+        "https://www.esselunga.it/it-it/promozioni/volantini.html",
+        "https://www.esselunga.it/it-it/promozioni/volantini.html"
+      ],
       "errors": [
-        "Timeout su https://www.esselunga.it/it-it/promozioni/volantini.html: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://www.esselunga.it/it-it/promozioni/volantini.html\", waiting until \"domcontentloaded\"\n"
+        "Asset https://www.esselunga.it/media/asset/wave/breadcrumb_wave_bg_1400.svg: UnidentifiedImageError: cannot identify image file <_io.BytesIO object at 0x7f13d91318f0>"
       ]
     },
     "iperal": {
       "store": "Iperal Vimodrone",
       "documents": 24,
-      "assets": 42,
+      "assets": 37,
       "offers": 0,
       "visited_urls": [
         "https://www.iperal.it/promozioni/",
@@ -57,9 +60,9 @@
     },
     "lidl": {
       "store": "Lidl Pioltello - Via Giorgio Amendola 13",
-      "documents": 63,
-      "assets": 143,
-      "offers": 2,
+      "documents": 67,
+      "assets": 121,
+      "offers": 1,
       "visited_urls": [
         "https://www.lidl.it/s/it-IT/ricerca-negozio/pioltello-mi/via-giorgio-amendola-13/",
         "https://www.lidl.it/",
@@ -67,18 +70,18 @@
         "https://www.lidl.it/c/cibo-e-bevande/s10068374",
         "https://www.lidl.it/h/formaggi-latticini-e-uova/h10095761",
         "https://www.lidl.it/h/drink/h10071022",
-        "https://www.lidl.it/l/it/volantini/offerte-valide-dal-27-08-al-2-09-volantino-settimanale-KA/view/flyer/page/1",
         "https://www.lidl.it/l/it/volantini/offerte-valide-dal-3-09-al-9-09-volantino-settimanale-KA/view/flyer/page/1",
-        "https://www.lidl.it/l/it/volantini/offerte-valide-dal-27-08-al-2-09-fresca-e-conveniente/view/flyer/page/1",
-        "https://www.lidl.it/l/it/volantini/godersi-l-estate-vale-davvero/view/flyer/page/1",
         "https://www.lidl.it/l/it/volantini/offerte-valide-dal-3-09-al-9-09-fresca-e-conveniente/view/flyer/page/1",
+        "https://www.lidl.it/l/it/volantini/godersi-l-estate-vale-davvero/view/flyer/page/1",
         "https://www.lidl.it/l/it/volantini/vacanze-da-sogno-per-la-tua-estate-lidl-viaggi/view/flyer/page/1",
         "https://www.lidl.it/l/it/volantini/i-viaggi-del-mese-lidl-viaggi-luglio-agosto-2026/view/flyer/page/1",
-        "https://accounts.lidl.com/Account/Login?ReturnUrl=%2Fconnect%2Fauthorize%2Fcallback%3Fcountry_code%3DIT%26response_type%3Dcode%26client_id%3Ditalyretailclient%26scope%3Dopenid%2520profile%2520Lidl.Authentication%2520offline_access%26state%3DKPrlfJP4uXLxTGizwBotcsf_yaXDmZhjxft9RRprfo0%253D%26redirect_uri%3Dhttps%253A%252F%252Fwww.lidl.it%252Fuser-api%252Fsignin-oidc%26nonce%3DcbRruDL-MvZiI1UwOjO3MFMgCJPtqWyx3QDwStxh2OI%26code_challenge%3DsN-zvR90xU7oMJluMQO7V0C23EOhX6VdYrGgJ6CgbMs%26code_challenge_method%3DS256%26step%3Dlogin%26language%3Dit-IT%26transaction_id%3Dc4561a65-bb1f-44c0-9910-4461c9377918",
-        "https://www.lidl.it/c/super-offerte-kw-35-26/a10100007",
+        "https://accounts.lidl.com/Account/Login?ReturnUrl=%2Fconnect%2Fauthorize%2Fcallback%3Fcountry_code%3DIT%26response_type%3Dcode%26client_id%3Ditalyretailclient%26scope%3Dopenid%2520profile%2520Lidl.Authentication%2520offline_access%26state%3DKxYa-Q_yY7lSVd5uDSYX2y5xM9of-dyx-qCMAbFGdNI%253D%26redirect_uri%3Dhttps%253A%252F%252Fwww.lidl.it%252Fuser-api%252Fsignin-oidc%26nonce%3DuSOmIko6q_WubL6gF9_i_ZvNHUdcxTjiLBq-8jGxFgQ%26code_challenge%3D7dknRU8a13YjxNY0VpSCG1Nwi13cm03aaVzsAfhYn3A%26code_challenge_method%3DS256%26step%3Dlogin%26language%3Dit-IT%26transaction_id%3D8cfd6bf2-9827-411b-b533-d6d4c8854197#login",
         "https://www.lidl.it/c/super-offerte-kw-36-26/a10101813",
         "https://www.lidl.it/c/lidl-mega-offerte-kw-36-26/a10101814",
-        "https://www.lidl.it/l/it/volantini/offerte-valide-dal-27-08-al-2-09-volantino-settimanale-KA/view/flyer/page/6"
+        "https://www.lidl.it/l/it/volantini/offerte-valide-dal-3-09-al-9-09-volantino-settimanale-NAZ/view/flyer/page/1",
+        "https://lidl.everli.com/",
+        "https://www.lidl.it/c/newsletter/s10017039",
+        "https://www.lidl.it/p/milbona-ciliegine-di-mozzarella/p11003106#searchTrackingMasterId=Product.11003106&searchTrackingTitle=Ciliegine+di+mozzarella&searchTrackingPageSize=48&searchTrackingPage=1&searchTrackingEvent=click&searchTrackingId=Product.11003106&searchTrackingQuery=null&searchTrackingOrigPos=1&searchTrackingPos=1&searchTrackingOrigPageSize=48&searchTrackingChannel=IT&list=/h/formaggi-latticini-e-uova/h10095761"
       ],
       "errors": []
     }
