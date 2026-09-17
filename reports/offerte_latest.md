@@ -1,6 +1,6 @@
 # Screener offerte alimentari
 
-Esecuzione: **2026-09-14**
+Esecuzione: **2026-09-17**
 
 ## Migliori risultati rilevati
 
@@ -8,11 +8,11 @@ Nessuna offerta con dati sufficientemente affidabili è stata rilevata.
 
 ## Stato fonti
 
-- **esselunga**: 0 documenti, 0 risultati, 1 errori.
-- **iperal**: 27 documenti, 0 risultati, 0 errori.
+- **esselunga**: 17 documenti, 0 risultati, 1 errori.
+- **iperal**: 33 documenti, 0 risultati, 0 errori.
 - **gigante**: 24 documenti, 0 risultati, 0 errori.
 - **md**: 13 documenti, 0 risultati, 0 errori.
-- **lidl**: 63 documenti, 1 risultati, 0 errori.
+- **lidl**: 66 documenti, 1 risultati, 0 errori.
 
 ## Risultati da verificare
 
