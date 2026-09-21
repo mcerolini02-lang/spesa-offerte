@@ -1,22 +1,23 @@
 {
-  "run_date": "2026-09-17",
+  "run_date": "2026-09-21",
   "sources": {
     "esselunga": {
       "store": "Esselunga Pioltello",
-      "documents": 17,
-      "assets": 27,
+      "documents": 16,
+      "assets": 26,
       "offers": 0,
       "visited_urls": [
         "https://www.esselunga.it/it-it/promozioni/volantini.html",
         "https://www.esselunga.it/it-it/promozioni/volantini.html"
       ],
       "errors": [
-        "Asset https://www.esselunga.it/media/asset/wave/breadcrumb_wave_bg_1400.svg: UnidentifiedImageError: cannot identify image file <_io.BytesIO object at 0x7f7e82955e90>"
+        "Asset https://www.esselunga.it/media/asset/wave/breadcrumb_wave_bg_1400.svg: UnidentifiedImageError: cannot identify image file <_io.BytesIO object at 0x7fbb28dda160>",
+        "Asset https://www.esselunga.it/media/icons/LOGO%20ESSE.svg: UnidentifiedImageError: cannot identify image file <_io.BytesIO object at 0x7fbb28d467a0>"
       ]
     },
     "iperal": {
       "store": "Iperal Vimodrone",
-      "documents": 33,
+      "documents": 28,
       "assets": 35,
       "offers": 0,
       "visited_urls": [
@@ -33,7 +34,7 @@
     "gigante": {
       "store": "Il Gigante Cernusco sul Naviglio",
       "documents": 24,
-      "assets": 72,
+      "assets": 73,
       "offers": 0,
       "visited_urls": [
         "https://ilgigante.net/volantini/?lat=45.5248987&lng=9.330711299999999",
@@ -63,8 +64,8 @@
     },
     "lidl": {
       "store": "Lidl Pioltello - Via Giorgio Amendola 13",
-      "documents": 66,
-      "assets": 123,
+      "documents": 65,
+      "assets": 157,
       "offers": 1,
       "visited_urls": [
         "https://www.lidl.it/s/it-IT/ricerca-negozio/pioltello-mi/via-giorgio-amendola-13/",
@@ -74,17 +75,17 @@
         "https://www.lidl.it/h/formaggi-latticini-e-uova/h10095761",
         "https://www.lidl.it/h/drink/h10071022",
         "https://www.lidl.it/l/it/volantini/offerte-valide-dal-17-09-al-23-09-volantino-settimanale-KA/view/flyer/page/1",
+        "https://www.lidl.it/l/it/volantini/offerte-valide-dal-24-09-al-30-09-volantino-settimanale-KA/view/flyer/page/1",
         "https://www.lidl.it/l/it/volantini/offerte-valide-dal-17-09-al-23-09-fresca-e-conveniente/view/flyer/page/1",
-        "https://www.lidl.it/l/it/volantini/godersi-l-estate-vale-davvero/view/flyer/page/1",
+        "https://www.lidl.it/l/it/volantini/offerte-valide-dal-24-09-al-30-09-fresca-e-conveniente/view/flyer/page/1",
         "https://www.lidl.it/l/it/volantini/offerte-valide-dal-17-09-al-23-09-il-cambio-stagione-che-vale-davvero/view/flyer/page/1",
         "https://www.lidl.it/l/it/volantini/i-viaggi-del-mese-lidl-viaggi/view/flyer/page/1",
-        "https://accounts.lidl.com/Account/Login?ReturnUrl=%2Fconnect%2Fauthorize%2Fcallback%3Fcountry_code%3DIT%26response_type%3Dcode%26client_id%3Ditalyretailclient%26scope%3Dopenid%2520profile%2520Lidl.Authentication%2520offline_access%26state%3DGWVuAf_edyEGq0WJDCN4A7p2sOEl1NPsM9GwNutgrmk%253D%26redirect_uri%3Dhttps%253A%252F%252Fwww.lidl.it%252Fuser-api%252Fsignin-oidc%26nonce%3DWxlPGTpSWRy9ChCixxFdEmL7UAKuBGnkZwr67VD3E4g%26code_challenge%3D8kdvrg58RGqFaD_vW0CRq7e2-DKXgTujt8T8yVis0y0%26code_challenge_method%3DS256%26step%3Dlogin%26language%3Dit-IT%26transaction_id%3D1238ce4b-59d0-4301-8a44-37c2545ca1d3#login",
+        "https://accounts.lidl.com/Account/Login?ReturnUrl=%2Fconnect%2Fauthorize%2Fcallback%3Fcountry_code%3DIT%26response_type%3Dcode%26client_id%3Ditalyretailclient%26scope%3Dopenid%2520profile%2520Lidl.Authentication%2520offline_access%26state%3DYxdSLGK1t7pX5TKEF05p2yh6uyL2hnxujm63OKSXJoQ%253D%26redirect_uri%3Dhttps%253A%252F%252Fwww.lidl.it%252Fuser-api%252Fsignin-oidc%26nonce%3DkKHo9Jq8V9GxBV4qe4v8C2hepZuntVqCuUvlziW-2IE%26code_challenge%3DQDKyrT32rqYW0098gaHb_wQRHqBI74BrYzgsC0cQzgk%26code_challenge_method%3DS256%26step%3Dlogin%26language%3Dit-IT%26transaction_id%3D2984877d-82f7-48bf-b236-d332c05fe12d#login",
         "https://www.lidl.it/c/super-offerte-kw-38-26/a10102867",
-        "https://www.lidl.it/c/lidl-mega-offerte-kw-38-26/a10102868",
-        "https://www.lidl.it/l/it/volantini/offerte-valide-dal-17-09-al-23-09-volantino-settimanale-NAZ/view/flyer/page/1",
-        "https://lidl.everli.com/",
-        "https://www.lidl.it/c/newsletter/s10017039",
-        "https://www.lidl.it/p/milbona-budino-high-protein/p11003713#searchTrackingMasterId=Product.11003713&searchTrackingTitle=Budino+High+Protein&searchTrackingPageSize=48&searchTrackingPage=1&searchTrackingEvent=click&searchTrackingId=Product.11003713&searchTrackingOrigPos=1&searchTrackingPos=1&searchTrackingOrigPageSize=48&searchTrackingChannel=IT&list=/h/formaggi-latticini-e-uova/h10095761"
+        "https://www.lidl.it/c/super-offerte-kw-39-26/a10103363",
+        "https://www.lidl.it/c/lidl-mega-offerte-kw-39-26/a10103364",
+        "https://www.lidl.it/c/grande-colazione-piccoli-prezzi-kw-39-26/a10103366",
+        "https://www.lidl.it/l/it/volantini/offerte-valide-dal-17-09-al-23-09-volantino-settimanale-NAZ/view/flyer/page/1"
       ],
       "errors": []
     }
