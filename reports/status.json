@@ -1,24 +1,24 @@
 {
-  "run_date": "2026-09-28",
+  "run_date": "2026-10-01",
   "sources": {
     "esselunga": {
       "store": "Esselunga Pioltello",
       "documents": 16,
-      "assets": 26,
+      "assets": 25,
       "offers": 0,
       "visited_urls": [
         "https://www.esselunga.it/it-it/promozioni/volantini.html",
         "https://www.esselunga.it/it-it/promozioni/volantini.html"
       ],
       "errors": [
-        "Asset https://www.esselunga.it/media/asset/wave/breadcrumb_wave_bg_1400.svg: UnidentifiedImageError: cannot identify image file <_io.BytesIO object at 0x7f5d3e2d3d30>",
-        "Asset https://www.esselunga.it/media/icons/LOGO%20ESSE.svg: UnidentifiedImageError: cannot identify image file <_io.BytesIO object at 0x7f5d3e4cfd80>"
+        "Asset https://www.esselunga.it/media/asset/wave/breadcrumb_wave_bg_1400.svg: UnidentifiedImageError: cannot identify image file <_io.BytesIO object at 0x7f2672e3be70>",
+        "Asset https://www.esselunga.it/media/icons/LOGO%20ESSE.svg: UnidentifiedImageError: cannot identify image file <_io.BytesIO object at 0x7f26730776f0>"
       ]
     },
     "iperal": {
       "store": "Iperal Vimodrone",
-      "documents": 27,
-      "assets": 45,
+      "documents": 25,
+      "assets": 31,
       "offers": 0,
       "visited_urls": [
         "https://www.iperal.it/promozioni/",
@@ -29,12 +29,16 @@
         "https://www.iperal.it/promozioni/[#content",
         "https://www.iperal.it/promozioni/["
       ],
-      "errors": []
+      "errors": [
+        "Asset https://iperal-cdn.azureedge.net/wp-content/uploads/2023/04/icon-user.svg: UnidentifiedImageError: cannot identify image file <_io.BytesIO object at 0x7f26731cef70>",
+        "Asset https://iperal-cdn.azureedge.net/wp-content/uploads/2023/05/LOGO_IPERAL_FOOTER.svg: UnidentifiedImageError: cannot identify image file <_io.BytesIO object at 0x7f26731cf240>",
+        "Asset https://iperal-cdn.azureedge.net/wp-content/uploads/2023/05/icon_select_iperal.svg: UnidentifiedImageError: cannot identify image file <_io.BytesIO object at 0x7f26731cecf0>"
+      ]
     },
     "gigante": {
       "store": "Il Gigante Cernusco sul Naviglio",
       "documents": 24,
-      "assets": 73,
+      "assets": 72,
       "offers": 0,
       "visited_urls": [
         "https://ilgigante.net/volantini/?lat=45.5248987&lng=9.330711299999999",
@@ -64,8 +68,8 @@
     },
     "lidl": {
       "store": "Lidl Pioltello - Via Giorgio Amendola 13",
-      "documents": 66,
-      "assets": 161,
+      "documents": 68,
+      "assets": 124,
       "offers": 0,
       "visited_urls": [
         "https://www.lidl.it/s/it-IT/ricerca-negozio/pioltello-mi/via-giorgio-amendola-13/",
@@ -74,18 +78,18 @@
         "https://www.lidl.it/c/cibo-e-bevande/s10068374",
         "https://www.lidl.it/h/formaggi-latticini-e-uova/h10095761",
         "https://www.lidl.it/h/drink/h10071022",
-        "https://www.lidl.it/l/it/volantini/offerte-valide-dal-24-09-al-30-09-volantino-settimanale-KA/view/flyer/page/1",
         "https://www.lidl.it/l/it/volantini/offerte-valide-dal-1-10-al-7-10-volantino-settimanale-KA/view/flyer/page/1",
-        "https://www.lidl.it/l/it/volantini/offerte-valide-dal-24-09-al-30-09-fresca-e-conveniente/view/flyer/page/1",
         "https://www.lidl.it/l/it/volantini/offerte-valide-dal-1-10-al-7-10-fresca-e-conveniente/view/flyer/page/1",
         "https://www.lidl.it/l/it/volantini/offerte-valide-dall1-10-al-31-10-da-lidl-ogni-brivido-vale-davvero/view/flyer/page/1",
         "https://www.lidl.it/l/it/volantini/fatti-numeri-e-storie-magazine-di-sostenibilita/view/flyer/page/1",
         "https://www.lidl.it/l/it/volantini/i-viaggi-del-mese-lidl-viaggi/view/flyer/page/1",
-        "https://accounts.lidl.com/Account/Login?ReturnUrl=%2Fconnect%2Fauthorize%2Fcallback%3Fcountry_code%3DIT%26response_type%3Dcode%26client_id%3Ditalyretailclient%26scope%3Dopenid%2520profile%2520Lidl.Authentication%2520offline_access%26state%3DwSSWRiId_k7kfdhbwGC3TsVGEocrKTTdMczTiCJPFRk%253D%26redirect_uri%3Dhttps%253A%252F%252Fwww.lidl.it%252Fuser-api%252Fsignin-oidc%26nonce%3DrhWjbNzA5A8QyCjFIPJ3oNLOoUgvkBWRLgMO2Hc82lQ%26code_challenge%3D14LlXv0tH_HoWf_sEYsuBLM46K4lIFvgPS-coZQUblE%26code_challenge_method%3DS256%26step%3Dlogin%26language%3Dit-IT%26transaction_id%3Dabad3fa7-8a83-4a54-b2f0-6c5f2eeca461#login",
-        "https://www.lidl.it/c/super-offerte-kw-39-26/a10103363",
-        "https://www.lidl.it/c/grande-colazione-piccoli-prezzi-kw-39-26/a10103366",
+        "https://accounts.lidl.com/Account/Login?ReturnUrl=%2Fconnect%2Fauthorize%2Fcallback%3Fcountry_code%3DIT%26response_type%3Dcode%26client_id%3Ditalyretailclient%26scope%3Dopenid%2520profile%2520Lidl.Authentication%2520offline_access%26state%3DqFnoxNJJngTns2ORpVUKUg68JURJZBTIm1ApZOGeV5o%253D%26redirect_uri%3Dhttps%253A%252F%252Fwww.lidl.it%252Fuser-api%252Fsignin-oidc%26nonce%3DnDSLee3-lxwwGRT80orWe3-wDWGHpkF1a1VTbqYP9KE%26code_challenge%3DFP11wWsmahGzknTMl0_BB9XBZuUYn7umrD9kgVjVquk%26code_challenge_method%3DS256%26step%3Dlogin%26language%3Dit-IT%26transaction_id%3Dae43aa12-d19d-4959-89c3-7b68cbf6dc6a#login",
         "https://www.lidl.it/c/grandi-offerte-kw-40-26/a10103737",
-        "https://www.lidl.it/c/lidl-mega-offerte-kw-40-26/a10103741"
+        "https://www.lidl.it/c/lidl-mega-offerte-kw-40-26/a10103741",
+        "https://www.lidl.it/l/it/volantini/offerte-valide-dal-1-10-al-7-10-volantino-settimanale-NAZ/view/flyer/page/1",
+        "https://lidl.everli.com/",
+        "https://www.lidl.it/c/newsletter/s10017039",
+        "https://www.lidl.it/p/vemondo-bevanda-vegetale-bio/p11143744#searchTrackingMasterId=Product.11143744&searchTrackingTitle=Bevanda+vegetale+BIO&searchTrackingPageSize=48&searchTrackingPage=1&searchTrackingEvent=click&searchTrackingId=Product.11143744&searchTrackingOrigPos=1&searchTrackingPos=1&searchTrackingOrigPageSize=48&searchTrackingChannel=IT&list=/h/formaggi-latticini-e-uova/h10095761"
       ],
       "errors": []
     }
