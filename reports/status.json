@@ -1,19 +1,23 @@
 {
-  "run_date": "2026-10-05",
+  "run_date": "2026-10-08",
   "sources": {
     "esselunga": {
       "store": "Esselunga Pioltello",
-      "documents": 0,
-      "assets": 0,
+      "documents": 16,
+      "assets": 25,
       "offers": 0,
-      "visited_urls": [],
+      "visited_urls": [
+        "https://www.esselunga.it/it-it/promozioni/volantini.html",
+        "https://www.esselunga.it/it-it/promozioni/volantini.html"
+      ],
       "errors": [
-        "Timeout su https://www.esselunga.it/it-it/promozioni/volantini.html: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://www.esselunga.it/it-it/promozioni/volantini.html\", waiting until \"domcontentloaded\"\n"
+        "Asset https://www.esselunga.it/media/asset/wave/breadcrumb_wave_bg_1400.svg: UnidentifiedImageError: cannot identify image file <_io.BytesIO object at 0x7f183cca77e0>",
+        "Asset https://www.esselunga.it/media/icons/LOGO%20ESSE.svg: UnidentifiedImageError: cannot identify image file <_io.BytesIO object at 0x7f183ce63e70>"
       ]
     },
     "iperal": {
       "store": "Iperal Vimodrone",
-      "documents": 24,
+      "documents": 26,
       "assets": 31,
       "offers": 0,
       "visited_urls": [
@@ -26,9 +30,9 @@
         "https://www.iperal.it/promozioni/["
       ],
       "errors": [
-        "Asset https://iperal-cdn.azureedge.net/wp-content/uploads/2023/04/icon-user.svg: UnidentifiedImageError: cannot identify image file <_io.BytesIO object at 0x7fa8020ceca0>",
-        "Asset https://iperal-cdn.azureedge.net/wp-content/uploads/2023/05/LOGO_IPERAL_FOOTER.svg: UnidentifiedImageError: cannot identify image file <_io.BytesIO object at 0x7fa8020cf9c0>",
-        "Asset https://iperal-cdn.azureedge.net/wp-content/uploads/2023/05/icon_select_iperal.svg: UnidentifiedImageError: cannot identify image file <_io.BytesIO object at 0x7fa8020cea20>"
+        "Asset https://iperal-cdn.azureedge.net/wp-content/uploads/2023/04/icon-user.svg: UnidentifiedImageError: cannot identify image file <_io.BytesIO object at 0x7f183cea4f90>",
+        "Asset https://iperal-cdn.azureedge.net/wp-content/uploads/2023/05/LOGO_IPERAL_FOOTER.svg: UnidentifiedImageError: cannot identify image file <_io.BytesIO object at 0x7f183cea56c0>",
+        "Asset https://iperal-cdn.azureedge.net/wp-content/uploads/2023/05/icon_select_iperal.svg: UnidentifiedImageError: cannot identify image file <_io.BytesIO object at 0x7f183cea53f0>"
       ]
     },
     "gigante": {
@@ -65,7 +69,7 @@
     "lidl": {
       "store": "Lidl Pioltello - Via Giorgio Amendola 13",
       "documents": 63,
-      "assets": 155,
+      "assets": 133,
       "offers": 0,
       "visited_urls": [
         "https://www.lidl.it/s/it-IT/ricerca-negozio/pioltello-mi/via-giorgio-amendola-13/",
@@ -74,18 +78,18 @@
         "https://www.lidl.it/c/cibo-e-bevande/s10068374",
         "https://www.lidl.it/h/formaggi-latticini-e-uova/h10095761",
         "https://www.lidl.it/h/drink/h10071022",
-        "https://www.lidl.it/l/it/volantini/offerte-valide-dal-1-10-al-7-10-volantino-settimanale-KA/view/flyer/page/1",
         "https://www.lidl.it/l/it/volantini/offerte-valide-dal-8-10-al-14-10-volantino-settimanale-KA/view/flyer/page/1",
-        "https://www.lidl.it/l/it/volantini/offerte-valide-dal-1-10-al-7-10-fresca-e-conveniente/view/flyer/page/1",
         "https://www.lidl.it/l/it/volantini/offerte-valide-dal-8-10-al-14-10-fresca-e-conveniente/view/flyer/page/1",
         "https://www.lidl.it/l/it/volantini/offerte-valide-dall1-10-al-31-10-da-lidl-ogni-brivido-vale-davvero-LV/view/flyer/page/1",
         "https://www.lidl.it/l/it/volantini/fatti-numeri-e-storie-magazine-di-sostenibilita/view/flyer/page/1",
         "https://www.lidl.it/l/it/volantini/i-viaggi-del-mese-lidl-viaggi/view/flyer/page/1",
-        "https://accounts.lidl.com/Account/Login?ReturnUrl=%2Fconnect%2Fauthorize%2Fcallback%3Fcountry_code%3DIT%26response_type%3Dcode%26client_id%3Ditalyretailclient%26scope%3Dopenid%2520profile%2520Lidl.Authentication%2520offline_access%26state%3DN_5RyCVVjX5Ii1G5-z1Xx8izh5Hi7FiqXUJzRI7wPWM%253D%26redirect_uri%3Dhttps%253A%252F%252Fwww.lidl.it%252Fuser-api%252Fsignin-oidc%26nonce%3DxssZdntVFnXdow2DD8DyX7JC4o1iBiLlKu771XU7QL0%26code_challenge%3D7JiFeaPbHW_g2knbaMJfDET1PVErNSU93g-lqjHq424%26code_challenge_method%3DS256%26step%3Dlogin%26language%3Dit-IT%26transaction_id%3Dff9a4756-bd75-4f36-beae-e0f7a4c07d14#login",
-        "https://www.lidl.it/c/grandi-offerte-kw-40-26/a10103737",
+        "https://www.lidl.it/l/it/volantini/mercatini-e-wellness-lidl-viaggi/view/flyer/page/1",
+        "https://accounts.lidl.com/Account/Login?ReturnUrl=%2Fconnect%2Fauthorize%2Fcallback%3Fcountry_code%3DIT%26response_type%3Dcode%26client_id%3Ditalyretailclient%26scope%3Dopenid%2520profile%2520Lidl.Authentication%2520offline_access%26state%3DFkcIpqpIir-IhTxrUcu04aJfm1qui8Jpp_SjH5foZxo%253D%26redirect_uri%3Dhttps%253A%252F%252Fwww.lidl.it%252Fuser-api%252Fsignin-oidc%26nonce%3DM4InYZ0gfTdt7mdOp_nKzTm4w1DTCAoSYRgmQLOXr0w%26code_challenge%3D382B103tlKyGbK3OBgEQ53oR5S0slwP8_yv4RG6ys9U%26code_challenge_method%3DS256%26step%3Dlogin%26language%3Dit-IT%26transaction_id%3D2ec436e5-b906-4999-9363-84c5cad036e2#login",
         "https://www.lidl.it/c/super-offerte-kw-41-26/a10104219",
         "https://www.lidl.it/c/lidl-mega-offerte-kw-41-26/a10104223",
-        "https://www.lidl.it/l/it/volantini/offerte-valide-dal-1-10-al-7-10-volantino-settimanale-NAZ/view/flyer/page/1"
+        "https://www.lidl.it/l/it/volantini/offerte-valide-dal-8-10-al-14-10-volantino-settimanale-NAZ/view/flyer/page/1",
+        "https://lidl.everli.com/",
+        "https://www.lidl.it/c/newsletter/s10017039"
       ],
       "errors": []
     }
