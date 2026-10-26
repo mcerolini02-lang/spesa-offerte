@@ -1,53 +1,58 @@
 {
-  "run_date": "2026-10-22",
+  "run_date": "2026-10-26",
   "sources": {
     "esselunga": {
       "store": "Esselunga Pioltello",
-      "documents": 15,
-      "assets": 24,
-      "offers": 0,
-      "visited_urls": [
-        "https://www.esselunga.it/it-it/promozioni/volantini.html",
-        "https://www.esselunga.it/it-it/promozioni/volantini.html"
-      ],
-      "errors": [
-        "Asset https://www.esselunga.it/media/asset/wave/breadcrumb_wave_bg_1400.svg: UnidentifiedImageError: cannot identify image file <_io.BytesIO object at 0x7f3106ee44a0>",
-        "Asset https://www.esselunga.it/media/icons/LOGO%20ESSE.svg: UnidentifiedImageError: cannot identify image file <_io.BytesIO object at 0x7f31070d6c50>",
-        "Asset https://www.esselunga.it/media/icons/big-login.svg: UnidentifiedImageError: cannot identify image file <_io.BytesIO object at 0x7f31070d6de0>"
-      ]
-    },
-    "iperal": {
-      "store": "Iperal Vimodrone",
-      "documents": 20,
-      "assets": 36,
-      "offers": 0,
-      "visited_urls": [
-        "https://www.iperal.it/promozioni/",
-        "https://www.iperal.it/promozioni/#content",
-        "https://cataloghi.iperal.it/books/ifpi/#p=1",
-        "https://cataloghi.iperal.it/books/imxt/#p=1"
-      ],
-      "errors": [
-        "Errore su https://volantini.iperal.it/books/tsbk: Error: Page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://volantini.iperal.it/books/tsbk\nCall log:\n  - navigating to \"https://volantini.iperal.it/books/tsbk\", waiting until \"domcontentloaded\"\n",
-        "Asset https://iperal-cdn.azureedge.net/wp-content/uploads/2023/04/icon-user.svg?x48021: UnidentifiedImageError: cannot identify image file <_io.BytesIO object at 0x7f3107202b10>",
-        "Asset https://iperal-cdn.azureedge.net/wp-content/uploads/2023/05/LOGO_IPERAL_FOOTER.svg?x48021: UnidentifiedImageError: cannot identify image file <_io.BytesIO object at 0x7f3107202d40>",
-        "Asset https://iperal-cdn.azureedge.net/wp-content/uploads/2023/05/icon_select_iperal.svg: UnidentifiedImageError: cannot identify image file <_io.BytesIO object at 0x7f3107202b10>"
-      ]
-    },
-    "gigante": {
-      "store": "Il Gigante Cernusco sul Naviglio",
       "documents": 0,
       "assets": 0,
       "offers": 0,
       "visited_urls": [],
       "errors": [
-        "Timeout su https://ilgigante.net/volantini/: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://ilgigante.net/volantini/\", waiting until \"domcontentloaded\"\n"
+        "Timeout su https://www.esselunga.it/it-it/promozioni/volantini.html: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://www.esselunga.it/it-it/promozioni/volantini.html\", waiting until \"domcontentloaded\"\n"
       ]
+    },
+    "iperal": {
+      "store": "Iperal Vimodrone",
+      "documents": 31,
+      "assets": 46,
+      "offers": 0,
+      "visited_urls": [
+        "https://www.iperal.it/promozioni/",
+        "https://www.iperal.it/promozioni/#content",
+        "https://cataloghi.iperal.it/books/Promo22_Giocattolo_def/#p=1",
+        "https://cataloghi.iperal.it/books/Promo22_Viaggi_def/#p=1",
+        "https://cataloghi.iperal.it/books/ifpi/#p=1",
+        "https://cataloghi.iperal.it/books/imxt/#p=1"
+      ],
+      "errors": [
+        "Errore su https://volantini.iperal.it/books/tsbk: Error: Page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://volantini.iperal.it/books/tsbk\nCall log:\n  - navigating to \"https://volantini.iperal.it/books/tsbk\", waiting until \"domcontentloaded\"\n"
+      ]
+    },
+    "gigante": {
+      "store": "Il Gigante Cernusco sul Naviglio",
+      "documents": 24,
+      "assets": 74,
+      "offers": 0,
+      "visited_urls": [
+        "https://ilgigante.net/volantini/?lat=45.5248987&lng=9.330711299999999",
+        "https://ilgigante.net/volantini/?lat=45.5248987&lng=9.330711299999999#jupiterx-main",
+        "https://ilgigante.net/cerca-punto-vendita/risultato-ricerca-punti-vendita/scheda-punto-vendita/?punto=70",
+        "https://ilgigante.net/cerca-punto-vendita/risultato-ricerca-punti-vendita/scheda-punto-vendita/?punto=2",
+        "https://ilgigante.net/cerca-punto-vendita/risultato-ricerca-punti-vendita/scheda-punto-vendita/?punto=56",
+        "https://ilgigante.net/cerca-punto-vendita/risultato-ricerca-punti-vendita/scheda-punto-vendita/?punto=29",
+        "https://ilgigante.net/cerca-punto-vendita/risultato-ricerca-punti-vendita/scheda-punto-vendita/?punto=1",
+        "https://ilgigante.net/cerca-punto-vendita/risultato-ricerca-punti-vendita/scheda-punto-vendita/?punto=3",
+        "https://ilgigante.net/cerca-punto-vendita/risultato-ricerca-punti-vendita/scheda-punto-vendita/?punto=48",
+        "https://ilgigante.net/cerca-punto-vendita/risultato-ricerca-punti-vendita/scheda-punto-vendita/?punto=32",
+        "https://ilgigante.net/cerca-punto-vendita/risultato-ricerca-punti-vendita/scheda-punto-vendita/?punto=34",
+        "https://ilgigante.net/cerca-punto-vendita/risultato-ricerca-punti-vendita/scheda-punto-vendita/?punto=19"
+      ],
+      "errors": []
     },
     "md": {
       "store": "MD Cernusco sul Naviglio - Via Torino 45",
-      "documents": 1,
-      "assets": 0,
+      "documents": 13,
+      "assets": 22,
       "offers": 0,
       "visited_urls": [
         "https://www.mdspa.it/volantino/"
@@ -57,8 +62,8 @@
     "lidl": {
       "store": "Lidl Pioltello - Via Giorgio Amendola 13",
       "documents": 62,
-      "assets": 119,
-      "offers": 2,
+      "assets": 148,
+      "offers": 1,
       "visited_urls": [
         "https://www.lidl.it/s/it-IT/ricerca-negozio/pioltello-mi/via-giorgio-amendola-13/",
         "https://www.lidl.it/",
@@ -67,17 +72,17 @@
         "https://www.lidl.it/h/formaggi-latticini-e-uova/h10095761",
         "https://www.lidl.it/h/drink/h10071022",
         "https://www.lidl.it/l/it/volantini/offerte-valide-dal-22-10-al-28-10-volantino-settimanale-KA/view/flyer/page/1",
+        "https://www.lidl.it/l/it/volantini/offerte-valide-dal-29-10-al-4-11-volantino-settimanale-KA/view/flyer/page/1",
         "https://www.lidl.it/l/it/volantini/offerte-valide-dal-22-10-al-28-10-fresca-e-conveniente/view/flyer/page/1",
+        "https://www.lidl.it/l/it/volantini/offerte-valide-dal-29-10-al-4-11-fresca-e-conveniente/view/flyer/page/1",
         "https://www.lidl.it/l/it/volantini/offerte-valide-dall1-10-al-31-10-da-lidl-ogni-brivido-vale-davvero-LV/view/flyer/page/1",
         "https://www.lidl.it/l/it/volantini/fatti-numeri-e-storie-magazine-di-sostenibilita/view/flyer/page/1",
         "https://www.lidl.it/l/it/volantini/i-viaggi-del-mese-lidl-viaggi/view/flyer/page/1",
         "https://www.lidl.it/l/it/volantini/mercatini-e-wellness-lidl-viaggi/view/flyer/page/1",
-        "https://accounts.lidl.com/Account/Login?ReturnUrl=%2Fconnect%2Fauthorize%2Fcallback%3Fcountry_code%3DIT%26response_type%3Dcode%26client_id%3Ditalyretailclient%26scope%3Dopenid%2520profile%2520Lidl.Authentication%2520offline_access%26state%3DRa71xd6AnjJ_EA7nduc6UkjI52MtG-aH03seKNTqDYY%253D%26redirect_uri%3Dhttps%253A%252F%252Fwww.lidl.it%252Fuser-api%252Fsignin-oidc%26nonce%3D_Q7tjnCw_wLMJauiXERMJ_3NVW9qeKUCSYvqpGzKgcc%26code_challenge%3DYbzyEeV8QFhc6OHxFld74LFU_SYMybtd_ps1ICovOgw%26code_challenge_method%3DS256%26step%3Dlogin%26language%3Dit-IT%26transaction_id%3D227d62a3-bcb9-4b5b-a8ba-5e5bdf040fb5#login",
+        "https://accounts.lidl.com/Account/Login?ReturnUrl=%2Fconnect%2Fauthorize%2Fcallback%3Fcountry_code%3DIT%26response_type%3Dcode%26client_id%3Ditalyretailclient%26scope%3Dopenid%2520profile%2520Lidl.Authentication%2520offline_access%26state%3Dfd1CEYAKgmOTsU7ufmJFtxO_xTpoxhEjmxBL6_wKOQw%253D%26redirect_uri%3Dhttps%253A%252F%252Fwww.lidl.it%252Fuser-api%252Fsignin-oidc%26nonce%3DjiDGWHHrf37G1mGDnqGB83yTPnfxdWR9TMW_GQAB6os%26code_challenge%3DtgDfSA-fZKoG5gWeP1L633aiQeEEriGbArP_rCNeKQA%26code_challenge_method%3DS256%26step%3Dlogin%26language%3Dit-IT%26transaction_id%3Dbde116d6-6019-4629-b4ac-f882e809aa01#login",
         "https://www.lidl.it/c/super-offerte-kw-43-26/a10105140",
-        "https://www.lidl.it/c/lidl-mega-offerte-kw-43-26/a10105139",
-        "https://www.lidl.it/l/it/volantini/offerte-valide-dal-22-10-al-28-10-volantino-settimanale-NAZ/view/flyer/page/1",
-        "https://lidl.everli.com/",
-        "https://www.lidl.it/c/newsletter/s10017039"
+        "https://www.lidl.it/c/super-offerte-kw-44-26/a10105792",
+        "https://www.lidl.it/c/lidl-mega-offerte-kw-44-26/a10105791"
       ],
       "errors": []
     }
