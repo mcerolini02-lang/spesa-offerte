@@ -1,14 +1,18 @@
 {
-  "run_date": "2026-10-29",
+  "run_date": "2026-11-02",
   "sources": {
     "esselunga": {
       "store": "Esselunga Pioltello",
-      "documents": 0,
-      "assets": 0,
+      "documents": 16,
+      "assets": 25,
       "offers": 0,
-      "visited_urls": [],
+      "visited_urls": [
+        "https://www.esselunga.it/it-it/promozioni/volantini.html",
+        "https://www.esselunga.it/it-it/promozioni/volantini.html"
+      ],
       "errors": [
-        "Timeout su https://www.esselunga.it/it-it/promozioni/volantini.html: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://www.esselunga.it/it-it/promozioni/volantini.html\", waiting until \"domcontentloaded\"\n"
+        "Asset https://www.esselunga.it/media/asset/wave/breadcrumb_wave_bg_1400.svg: UnidentifiedImageError: cannot identify image file <_io.BytesIO object at 0x7f0feddec720>",
+        "Asset https://www.esselunga.it/media/icons/LOGO%20ESSE.svg: UnidentifiedImageError: cannot identify image file <_io.BytesIO object at 0x7f0fee00ede0>"
       ]
     },
     "iperal": {
@@ -61,28 +65,29 @@
     },
     "lidl": {
       "store": "Lidl Pioltello - Via Giorgio Amendola 13",
-      "documents": 58,
-      "assets": 112,
-      "offers": 0,
+      "documents": 62,
+      "assets": 146,
+      "offers": 2,
       "visited_urls": [
         "https://www.lidl.it/s/it-IT/ricerca-negozio/pioltello-mi/via-giorgio-amendola-13/",
         "https://www.lidl.it/",
         "https://www.lidl.it/c/volantino-lidl/s10018048",
         "https://www.lidl.it/c/cibo-e-bevande/s10068374",
-        "https://www.lidl.it/h/formaggi-latticini-e-uova/h10095761",
+        "https://www.lidl.it/",
+        "https://www.lidl.it/h/bevande/h10071022",
         "https://www.lidl.it/l/it/volantini/offerte-valide-dal-29-10-al-4-11-volantino-settimanale-KA/view/flyer/page/1",
+        "https://www.lidl.it/l/it/volantini/offerte-valide-dal-volantino-settimanale-KA-sci/view/flyer/page/1",
         "https://www.lidl.it/l/it/volantini/offerte-valide-dal-29-10-al-4-11-fresca-e-conveniente/view/flyer/page/1",
-        "https://www.lidl.it/l/it/volantini/offerte-valide-dall1-10-al-31-10-da-lidl-ogni-brivido-vale-davvero-LV/view/flyer/page/1",
         "https://www.lidl.it/l/it/volantini/offerte-valide-dal-29-10-al-4-11-l-autunno-che-vale-davvero/view/flyer/page/1",
         "https://www.lidl.it/l/it/volantini/fatti-numeri-e-storie-magazine-di-sostenibilita/view/flyer/page/1",
-        "https://www.lidl.it/l/it/volantini/i-viaggi-del-mese-lidl-viaggi/view/flyer/page/1",
+        "https://www.lidl.it/l/it/volantini/offerte-valide-dal-5-11-al-11-11-fresca-e-conveniente/view/flyer/page/1",
+        "https://www.lidl.it/l/it/volantini/scopri-tutte-le-offerte-il-tuo-inverno-vale-davvero/view/flyer/page/1",
         "https://www.lidl.it/l/it/volantini/mercatini-e-wellness-lidl-viaggi/view/flyer/page/1",
-        "https://accounts.lidl.com/Account/Login?ReturnUrl=%2Fconnect%2Fauthorize%2Fcallback%3Fcountry_code%3DIT%26response_type%3Dcode%26client_id%3Ditalyretailclient%26scope%3Dopenid%2520profile%2520Lidl.Authentication%2520offline_access%26state%3D0-1z4SurHGdYErQX-om5XMHUj26eLcb_d4ycOrQAD9w%253D%26redirect_uri%3Dhttps%253A%252F%252Fwww.lidl.it%252Fuser-api%252Fsignin-oidc%26nonce%3DsoITiuMV8QjYr0Q9r2kMsHUguG2JRfQndM1rwu8JSpo%26code_challenge%3DnT1Gv4gR9mCLdlu_I6XzsCeXenCJ2aBIjmRVqS7UkCY%26code_challenge_method%3DS256%26step%3Dlogin%26language%3Dit-IT%26transaction_id%3D0fe28348-d327-49dd-90f8-23e79261a8a2#login",
+        "https://www.lidl.it/l/it/volantini/i-viaggi-del-mese-lidl-viaggi-728e17/view/flyer/page/1",
+        "https://accounts.lidl.com/Account/Login?ReturnUrl=%2Fconnect%2Fauthorize%2Fcallback%3Fcountry_code%3DIT%26response_type%3Dcode%26client_id%3Ditalyretailclient%26scope%3Dopenid%2520profile%2520Lidl.Authentication%2520offline_access%26state%3D55Y5S9yr0s0AQmjQxGonJ8yRuQE87pRl-yvzv6vkuGY%253D%26redirect_uri%3Dhttps%253A%252F%252Fwww.lidl.it%252Fuser-api%252Fsignin-oidc%26nonce%3DKkONYqaZpfMgDNKtJy8tX0bTQgyYbnxlULRXi-f5SJk%26code_challenge%3Dusa-nmIHSwKFW-urCXkpmjqhCuxrkhTm9sYXIqG_7Yg%26code_challenge_method%3DS256%26step%3Dlogin%26language%3Dit-IT%26transaction_id%3Ded427b21-7d08-449e-87cc-1a108e29a224",
         "https://www.lidl.it/c/super-offerte-kw-44-26/a10105792",
-        "https://www.lidl.it/c/lidl-mega-offerte-kw-44-26/a10105791",
-        "https://www.lidl.it/l/it/volantini/offerte-valide-dal-29-10-al-4-11-volantino-settimanale-NAZ/view/flyer/page/1",
-        "https://lidl.everli.com/",
-        "https://www.lidl.it/c/newsletter/s10017039"
+        "https://www.lidl.it/c/store/lidl-mega-offerte-kw-45-26/a10106091",
+        "https://www.lidl.it/c/store/super-offerte-kw-45-26/a10106092"
       ],
       "errors": []
     }
