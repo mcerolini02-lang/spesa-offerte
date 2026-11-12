@@ -1,32 +1,30 @@
 {
-  "run_date": "2026-11-09",
+  "run_date": "2026-11-12",
   "sources": {
     "esselunga": {
       "store": "Esselunga Pioltello",
-      "documents": 16,
-      "assets": 26,
+      "documents": 17,
+      "assets": 28,
       "offers": 0,
       "visited_urls": [
         "https://www.esselunga.it/it-it/promozioni/volantini.html",
         "https://www.esselunga.it/it-it/promozioni/volantini.html"
       ],
       "errors": [
-        "Asset https://www.esselunga.it/media/asset/wave/breadcrumb_wave_bg_1400.svg: UnidentifiedImageError: cannot identify image file <_io.BytesIO object at 0x7f73ab3b1b20>",
-        "Asset https://www.esselunga.it/media/icons/LOGO%20ESSE.svg: UnidentifiedImageError: cannot identify image file <_io.BytesIO object at 0x7f73aa3b0e00>"
+        "Asset https://www.esselunga.it/media/asset/wave/breadcrumb_wave_bg_1400.svg: UnidentifiedImageError: cannot identify image file <_io.BytesIO object at 0x7f25d8ee1f80>"
       ]
     },
     "iperal": {
       "store": "Iperal Vimodrone",
-      "documents": 43,
-      "assets": 63,
+      "documents": 39,
+      "assets": 53,
       "offers": 0,
       "visited_urls": [
         "https://www.iperal.it/promozioni/",
         "https://www.iperal.it/promozioni/#content",
-        "https://cataloghi.iperal.it/books/ncas/#p=1",
         "https://cataloghi.iperal.it/books/Promo22_Giocattolo_def/#p=1",
         "https://cataloghi.iperal.it/books/Promo23_Natale_def/#p=1",
-        "https://cataloghi.iperal.it/books/Expert-new/#p=1",
+        "https://cataloghi.iperal.it/books/New-Gaer-promo-12-18-novembre-3/#p=1",
         "https://cataloghi.iperal.it/books/Promo22_Viaggi_def/#p=1",
         "https://cataloghi.iperal.it/books/ifpi/#p=1",
         "https://cataloghi.iperal.it/books/imxt/#p=1"
@@ -68,9 +66,9 @@
     },
     "lidl": {
       "store": "Lidl Pioltello - Via Giorgio Amendola 13",
-      "documents": 60,
-      "assets": 139,
-      "offers": 1,
+      "documents": 59,
+      "assets": 123,
+      "offers": 0,
       "visited_urls": [
         "https://www.lidl.it/s/it-IT/ricerca-negozio/pioltello-mi/via-giorgio-amendola-13/",
         "https://www.lidl.it/",
@@ -78,18 +76,18 @@
         "https://www.lidl.it/c/cibo-e-bevande/s10068374",
         "https://www.lidl.it/h/formaggi-latticini-e-uova/h10095761",
         "https://www.lidl.it/h/bevande/h10071022",
-        "https://www.lidl.it/l/it/volantini/offerte-valide-dal-volantino-settimanale-KA-sci/view/flyer/page/1",
         "https://www.lidl.it/l/it/volantini/offerte-valide-dal-12-11-al-18-11-volantino-settimanale-KA/view/flyer/page/1",
-        "https://www.lidl.it/l/it/volantini/offerte-valide-dal-5-11-al-11-11-fresca-e-conveniente/view/flyer/page/1",
         "https://www.lidl.it/l/it/volantini/offerte-valide-dal-12-11-al-18-11-fresca-e-conveniente/view/flyer/page/1",
         "https://www.lidl.it/l/it/volantini/ispirazioni-idee-e-novita-godersi-il-natale-vale-davvero/view/flyer/page/1",
         "https://www.lidl.it/l/it/volantini/scopri-tutte-le-offerte-il-tuo-inverno-vale-davvero/view/flyer/page/1",
         "https://www.lidl.it/l/it/volantini/fatti-numeri-e-storie-magazine-di-sostenibilita/view/flyer/page/1",
         "https://www.lidl.it/l/it/volantini/mercatini-e-wellness-lidl-viaggi/view/flyer/page/1",
         "https://www.lidl.it/l/it/volantini/i-viaggi-del-mese-lidl-viaggi-728e17/view/flyer/page/1",
-        "https://accounts.lidl.com/Account/Login?ReturnUrl=%2Fconnect%2Fauthorize%2Fcallback%3Fcountry_code%3DIT%26response_type%3Dcode%26client_id%3Ditalyretailclient%26scope%3Dopenid%2520profile%2520Lidl.Authentication%2520offline_access%26state%3DE-TBqKPsll6hkQM4_wpD36VJJbjds0EzwYIagk-tbus%253D%26redirect_uri%3Dhttps%253A%252F%252Fwww.lidl.it%252Fuser-api%252Fsignin-oidc%26nonce%3DMpwOQ5mZbVT_HSsvgeQCSJvj9E7Zp9HA5wVBFFCs71Q%26code_challenge%3D7-Uerx7p2qdqeticjjeUiGDL6xLjbB1qNw_Z1Jts-Q0%26code_challenge_method%3DS256%26step%3Dlogin%26language%3Dit-IT%26transaction_id%3D059d84c5-7cd4-4854-ac37-695ad607f665#login",
-        "https://www.lidl.it/c/store/super-offerte-kw-45-26/a10106092",
-        "https://www.lidl.it/c/store/super-offerte-lidl-black-days-kw-46-26/a10106694"
+        "https://accounts.lidl.com/Account/Login?ReturnUrl=%2Fconnect%2Fauthorize%2Fcallback%3Fcountry_code%3DIT%26response_type%3Dcode%26client_id%3Ditalyretailclient%26scope%3Dopenid%2520profile%2520Lidl.Authentication%2520offline_access%26state%3DyWP4cNe2Dl64UNEMiZAFB6og_noOh7-vysF_PEwge4g%253D%26redirect_uri%3Dhttps%253A%252F%252Fwww.lidl.it%252Fuser-api%252Fsignin-oidc%26nonce%3D1o0n6QSObhoES64CEpw-CxBShvAYzoOVu_QyzbRUVUU%26code_challenge%3D5g_x_wqvpaP6z4QDoBgByqvCQuM601DOkvPvqrndUqo%26code_challenge_method%3DS256%26step%3Dlogin%26language%3Dit-IT%26transaction_id%3Dd64db5ea-00a0-425c-a388-2206e8eea642#login",
+        "https://www.lidl.it/c/store/super-offerte-lidl-black-days-kw-46-26/a10106694",
+        "https://www.lidl.it/c/store/lidl-mega-offerte-kw-46-26/a10106693",
+        "https://www.lidl.it/l/it/volantini/offerte-valide-dal-12-11-al-18-11-volantino-settimanale-NAZ/view/flyer/page/1",
+        "https://www.lidl.it/l/it/volantini/offerte-valide-dal-12-11-al-18-11-offerte-speciali-vimodrone/view/flyer/page/1"
       ],
       "errors": []
     }
